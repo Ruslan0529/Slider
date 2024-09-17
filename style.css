@@ -1,0 +1,79 @@
+.materials-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 783px;
+    background-color: black;
+}
+
+.materials-container__text-container {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 442px;
+}
+
+.parameter__city,
+.parameter__apartment-area,
+.parameter__repair-time,
+.parameter__repair-cost {
+    width: 150px;
+}
+
+.text-container__parameter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 131px;
+}
+
+.title,
+.subtitle {
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Yeseva One', serif;
+    color: #e3b873;
+}
+
+.subtitle {
+    font-family: 'Yeseva One', serif;
+    color: #e3b873;
+}
+
+.text {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+}
+
+.text-container__arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.materials-container__image-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.image-container__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.30);
+    font-family: 'Yeseva One', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #e3b873;
+    text-decoration: underline;
+}
